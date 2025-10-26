@@ -1,0 +1,14 @@
+.scolarshipCard {
+  background-color: rgba(142, 202, 230, 1);
+}
+
+.applyButton {
+  background-color: rgba(162, 89, 5, 1);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  width: 233px;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.header {
+  background-color: rgba(162, 88, 5, 0.2);
+  padding: 12px 20px;
+}
+
+.lists li {
+  color: rgba(2, 48, 71, 1);
+  list-style: none;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.buttonWrapper {
+  background-color: rgba(209, 178, 0, 1);
+  color: rgba(2, 48, 71, 1);
+}

@@ -1,0 +1,11 @@
+.teacherImgWrapper,
+.teacherImgWrapper img {
+  border-top-right-radius: 83px;
+  border-bottom-left-radius: 83px;
+}
+
+.teacherImgWrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 357px;
+}

@@ -1,0 +1,55 @@
+.courseCard {
+  background-color: rgba(209, 178, 0, 1);
+}
+
+.topCard {
+  padding: 17px 18px;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.bottomArea {
+  position: relative;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.lineWrap,
+.descWrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 220ms ease, transform 220ms ease;
+  will-change: opacity, transform;
+  padding-inline: 6px;
+  text-align: center;
+}
+
+.lineWrap {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.descWrap {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.courseCard:hover .lineWrap {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+.courseCard:hover .descWrap {
+  opacity: 1;
+  transform: translateY(-6px);
+}

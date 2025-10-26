@@ -1,0 +1,15 @@
+.heroSection {
+  background-image: url("../../assets/images/9b32f59ce316a31700e1172cac937baabaccd9ca.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 721px;
+}
+
+.heroButton {
+  background-color: rgba(162, 89, 5, 1);
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  padding: 10px 23px;
+}
