@@ -39,7 +39,7 @@ const Feedbacks = () => {
         >
           <img
             src={student}
-            alt="Tələbə şəkli"
+            alt="studentImg"
             className="w-full h-auto block object-cover"
           />
         </div>

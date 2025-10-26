@@ -27,6 +27,7 @@ const Header = () => {
           />
         </div>
 
+        {/* Links */}
         <nav className="hidden md:block">
           <ul
             className={`${style.lists} flex items-center gap-6 md:gap-4 lg:gap-6`}
@@ -44,7 +45,7 @@ const Header = () => {
         >
           <button>Qeydiyyat</button>
         </div>
-
+        {/* Hamburger Menu Icon */}
         <div className="md:hidden">
           <button className="md:hidden p-2" onClick={toggleSidebar}>
             <svg
@@ -64,6 +65,7 @@ const Header = () => {
         </div>
       </div>
 
+      {/* Hamburger Menu */}
       <aside
         className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
           isSidebarOpen ? "translate-x-0" : "translate-x-full"
